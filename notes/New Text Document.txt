@@ -1,0 +1,11 @@
+<TypeAnimation
+                sequence={[
+                'Developer',
+                2000, // wait 1s 
+                'Coder',
+                2000,
+                'Tech Enthusiast',
+                2000,]} 
+wrapper="div" speed={50} cursor={true} style={{ fontSize: '1em', paddingLeft: "6px" }} repeat={Infinity}/>
+
+--- npm install react-type-animation
